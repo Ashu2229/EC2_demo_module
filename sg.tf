@@ -3,7 +3,7 @@ This is to create security group (port 80 inbound and all trafic outbound)
 */
 
 resource "aws_security_group" "allow_http" {
-  name        = "allow_http_module"
+  name        = "sg_allow_http_module"
   description = "Allow http inbound traffic"
   vpc_id      = "vpc-18824b73"
 
