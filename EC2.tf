@@ -4,7 +4,7 @@ resource "aws_instance" "web" {
   count         = "2"
   ami           = "ami-04893cdb768d0f9ee"
   instance_type = var.instance_type
-  subnet_id     = "subnet-6f19ee04"
+  subnet_id     = "subnet-0496128e977f28b29"
   key_name      = "devops2022"
   tags = {
     Name = "Terraform_New_Module_Demo"
