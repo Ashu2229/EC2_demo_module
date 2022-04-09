@@ -5,7 +5,7 @@ resource "aws_instance" "web" {
   ami           = "ami-04893cdb768d0f9ee"
   instance_type = var.instance_type
   subnet_id     = "subnet-0496128e977f28b29"
-  key_name      = "devops2022"
+  key_name      = "Demo_key"
   tags = {
     Name = "Terraform_New_Module_Demo"
   }
